@@ -98,6 +98,12 @@ nav ul a:hover{
         margin-right: 90%;
         cursor: pointer;
     }
+    .intro-text{
+        font-size:20px;
+    }
+    .important{
+        font-size:60px;
+    }
     .close-menu{
         display: none;
     }
