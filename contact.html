@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact form</title>
+    <link rel="stylesheet" href="contactStyle.css">
+</head>
+<body>
+    <nav>
+        <img class= "open-menu" src="https://img.icons8.com/material-outlined/50/000000/menu.png"/>
+        <ul class="nav-links ">
+            <li><a href="index.html" >HOME</a></li>
+            <li><a href="contact.html" target="_blank" class = "active">CONTACT</a></li>
+            <li><a href="#">PROJECTS</a></li>
+            <li><a href="#">MORE</a></li>
+             
+            <img class= "close-menu" src="https://img.icons8.com/ios/50/000000/close-window.png"/>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="welcome-text">
+            <h1> Wanted to <span class= "important">know more<span> </h1>
+            <p>join our newletter</p>
+        </div>
+        <form action="form.php">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter email">
+            </div>
+            <div class="form-group">
+                <label for="mobile">Mobile</label>
+                <input type="text" id="mobile" placeholder="+91*********">
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+    <script src= "logic.js"></script>
+</body>
+</html>
